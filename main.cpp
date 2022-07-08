@@ -9,7 +9,6 @@ using namespace std;
     {
         //This is updated Second commit
         string ans = "";
-        ans = "asdasd";
         string emptyset = "empty";
         for(int i = 0;i<s1.size();i++){
             if(s2.find(s1[i])==string::npos)
