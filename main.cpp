@@ -7,9 +7,8 @@ using namespace std;
     string op;
     string differenceSet(string s1, string s2)
     {
-        //This is updated Second commit
+        //
         string ans = "";
-        int a1sd = 234;
         string emptyset = "empty";
         for(int i = 0;i<s1.size();i++){
             if(s2.find(s1[i])==string::npos)
